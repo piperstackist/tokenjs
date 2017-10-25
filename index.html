@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <title></title>
+</head>
+<body>
+    <div class="modal-header">
+      <h4 class="modal-title" id="myModalLabel2">Generate Tokens</h4>
+    </div>
+    <form name="tokGen">
+      <div class="modal-body">  
+        <b><input class="form-control col-md-3 " type="text" name="output"></b>       
+        <br> <b> Token  Lenght:</b> <Input class="form-control col-md-3" type="number" name="thelength" value="8">
+        <p>Copy the Token generated and paste in the desired input field</p>            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <input type="button" class="btn btn-primary" value="Generate" onClick="result(this.form.thelength.value)">
+      </div>
+    </form>
+
+      <script type="text/javascript" src="tokenjs.js"></script>
+</body>
+</html> 
